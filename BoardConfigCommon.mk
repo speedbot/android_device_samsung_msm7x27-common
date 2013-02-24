@@ -82,6 +82,7 @@ BOARD_HAVE_SAMSUNG_WIFI := true
 ## Wi-Fi Hotspot
 BOARD_HAVE_LEGACY_HOSTAPD := true
 BOARD_HOSTAPD_NO_ENTROPY := true
+BOARD_WIFI_CLASS := ../../../device/samsung/msm7x27-common/wifi/
 
 ## RIL
 TARGET_PROVIDES_LIBRIL := true
